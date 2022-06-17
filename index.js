@@ -8,7 +8,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
   await page.goto('https://unsplash.com/');
 
-  // - Acessa a página de login
+  // - Acessa a página de login ll
   await page.click('[href="/login"]');
 
   // Troque os valores de process.env.UNSPLASH_EMAIL e process.env.UNSPLASH_PASS pelo seu login e senha :)
